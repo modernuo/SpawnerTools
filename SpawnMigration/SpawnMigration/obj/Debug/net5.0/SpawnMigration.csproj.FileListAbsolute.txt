@@ -5,11 +5,12 @@ C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\bin\D
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\bin\Debug\net5.0\SpawnMigration.dll
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\bin\Debug\net5.0\ref\SpawnMigration.dll
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\bin\Debug\net5.0\SpawnMigration.pdb
-C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.csproj.AssemblyReference.cache
+C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\bin\Debug\net5.0\CommandLine.dll
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.AssemblyInfoInputs.cache
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.AssemblyInfo.cs
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.csproj.CoreCompileInputs.cache
+C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.csproj.CopyComplete
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.dll
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\ref\SpawnMigration.dll
 C:\Users\wewan\Documents\GitHub\SpawnerTools\SpawnMigration\SpawnMigration\obj\Debug\net5.0\SpawnMigration.pdb
