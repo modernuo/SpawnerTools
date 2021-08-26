@@ -14,9 +14,9 @@ namespace SpawnMigration.Framework.XMLSpawner2
 {
     public class XMLSpawner2
     {
-        public XMLSpawner2()
+        public XMLSpawner2(string sourcepath, string targetpath, string facet)
         {
-            using (var fileStream = File.Open("C:\\Users\\wewan\\Downloads\\AccurateSpawn(1)\\AccurateSpawn.xml", FileMode.Open))
+            using (var fileStream = File.Open(sourcepath, FileMode.Open))
             {
 
 
@@ -105,12 +105,18 @@ namespace SpawnMigration.Framework.XMLSpawner2
 
                     };
 
-                    JSONSpawners.Add(entry);
+                    if (entry.map.ToLower() == facet.ToLower())
+                    {
+                        JSONSpawners.Add(entry);
+                    }
+                                       
+
+
 
                 }
 
                 var jsonString = JsonSerializer.Serialize(JSONSpawners);
-                File.WriteAllText("C:\\Users\\wewan\\Documents\\GitHub\\DefianceUOR\\Distribution\\Data\\Spawns\\test.json", jsonString);
+                File.WriteAllText(targetpath, jsonString);
 
 
             }

@@ -21,7 +21,10 @@ namespace SpawnMigration
                 case Mode.None:
                     break;
                 case Mode.Migrate:
-                    Console.WriteLine("geht");
+                    if (opts.SourceSpawnerType.ToLower() == "xmlspawner2" && opts.SourcePath != null && opts.TargetPath != null && opts.Facet != null)
+                    {
+                        new XMLSpawner2(opts.SourcePath, opts.TargetPath, opts.Facet);
+                    }
                     break;
                 default:
                     break;
