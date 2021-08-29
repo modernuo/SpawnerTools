@@ -20,7 +20,7 @@ namespace SpawnMigration.Framework.XMLSpawner2
         public XMLSpawner2(string sourcePath, string targetPath, string facet)
         {
             var attributes = File.GetAttributes(sourcePath);
-            var files = attributes.HasFlag(FileAttributes.Directory) ? Directory.GetFiles(sourcePath) : new[] { sourcePath };
+            var files = attributes.HasFlag(FileAttributes.Directory) ? Directory.GetFiles(sourcePath, "*.xml") : new[] { sourcePath };
             
             foreach (string currentFile in files)
             {
